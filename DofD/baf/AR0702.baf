@@ -1,8 +1,9 @@
 IF
-	Global("Demointomad1","GLOBAL",0)
+	Global("Demointomad1","MYAREA",0)
 THEN
 	RESPONSE #100
 		CreateCreature("dementy",[762.886],9)  
-		SetGlobal("Demointomad1","GLOBAL",1)
+		SetGlobal("Demointomad1","MYAREA",1)
+		Continue()
 END
 

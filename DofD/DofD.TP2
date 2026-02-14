@@ -245,8 +245,10 @@ EXTEND_TOP ~ar0700.bcs~                 ~DofD/BAF/Ar0700.BAF~
 EXTEND_TOP ~ar0702.bcs~                 ~DofD/BAF/Ar0702.BAF~
 
 ACTION_IF NOT GAME_IS ~bg2ee eet~ BEGIN
-EXTEND_TOP ~ar0702.bcs~                 ~DofD/BAF/Ar0702_wmart2.BAF~
-	END
+
+	EXTEND_TOP ~ar0702.bcs~                 ~DofD/BAF/Ar0702_wmart2.BAF~
+
+END
 
 COMPILE ~DofD/Scripts~
 
