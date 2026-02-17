@@ -1,7 +1,7 @@
-BACKUP ~DofD/backup~ 
+BACKUP ~DofD/backup~
 AUTHOR ~XXXXXXXXXX~
 
-VERSION ~v3.5~
+VERSION ~v3.6~
 
 README ~DofD/readme/ReadMe.%LANGUAGE%.txt~ ~DofD/readme/ReadMe.English.txt~
 
@@ -15,44 +15,49 @@ ALWAYS
 
     LAF autotra_workaround END
 
-// ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+ ACTION_DEFINE_ARRAY DoD_noconvert BEGIN install END
 
-ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+ACTION_DEFINE_ARRAY DoD_reload BEGIN setup END
 
     LAF HANDLE_CHARSETS
       INT_VAR
         infer_charsets = 1
       STR_VAR
         tra_path = EVAL ~DofD/Tra/autotra~
-        // noconvert_array = fl#noconvert
-        reload_array = fl#reload
+        noconvert_array = DoD_noconvert
+        reload_array = DoD_reload
 	END
 
-INCLUDE ~DofD/Lib/gw_functions.tpa~	
-	
+INCLUDE ~DofD/Lib/gw_functions.tpa~
+
 END
 
 AUTO_TRA ~DofD/Tra/autotra/%s~
 
-LANGUAGE ~English~ ~English~
+LANGUAGE ~English~
+         ~English~
          ~DofD/Tra/English/Setup.tra~
-		 
-LANGUAGE ~Russian (translation aerie.ru)~ ~Russian~
+
+LANGUAGE ~Russian (translation aerie.ru)~
+         ~Russian~
          ~DofD/Tra/Russian/Setup.tra~
-		 
-LANGUAGE ~German (Uebersetzung von Ruebezahl)~ ~German~
+
+LANGUAGE ~German (Uebersetzung von Ruebezahl)~
+         ~German~
          ~DofD/Tra/German/Setup.tra~
-		 
-LANGUAGE ~Italian (translation by Stoneangel~ ~Italian~
+
+LANGUAGE ~Italian (translation by Stoneangel~
+         ~Italian~
          ~DofD/Tra/Italian/Setup.tra~
-		 
-LANGUAGE ~French~ ~French~
-        // ~DofD/Tra/French/DEMDARK.tra~
-        // ~DofD/Tra/French/DEMDARK1.tra~
-        // ~DofD/Tra/French/DEMDUD.tra~
-        // ~DofD/Tra/French/DEMOPORT.tra~
+
+LANGUAGE ~French~
+         ~French~
          ~DofD/Tra/French/Setup.tra~
-        // ~DofD/Tra/French/Demdud2.tra~
+
+LANGUAGE ~Simplified Chinese (Translation by lzw1045227733)~
+         ~schinese~
+         ~DofD/Tra/schinese/Setup.tra~
+         ~DofD/Tra/schinese/install.tra~
 
 BEGIN  @0
 DESIGNATED 0
@@ -72,7 +77,7 @@ COPY ~DofD/Bam/demL01C.bam~        ~override/demL01C.bam~
 COPY ~DofD/Bam/demRL68.bam~        ~override/demRL68.bam~
 
 PRINT  @3
-      
+
 COPY ~DofD/Items/demapoc.itm~          ~override/demapoc.itm~
   SAY NAME1 @4
   SAY NAME2 @5
@@ -82,14 +87,14 @@ COPY ~DofD/Items/demapoc.itm~          ~override/demapoc.itm~
 COPY ~DofD/Items/demnight.itm~      ~override/demnight.itm~
   SAY NAME1 @7
   SAY NAME2 @8
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@9" END 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@9" END
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@10" END
 
 COPY ~DofD/Items/demcup.itm~        ~override/demcup.itm~
   SAY NAME1 @11
   SAY NAME2 @12
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@13" END 
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@14" END 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@13" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@14" END
 
 COPY ~DofD/Items/demokey.itm~       ~override/demokey.itm~
   SAY NAME1 @15
@@ -117,31 +122,31 @@ COPY ~DofD/Items/demtyra.itm~       ~override/demtyra.itm~
 
 COPY ~DofD/Items/demdraco.itm~       ~override/demdraco.itm~
   SAY NAME1 @22
- 
+
 COPY ~DofD/Items/demmater.itm~        ~override/demmater.itm~
   SAY NAME1 @7
   SAY NAME2 @23
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@9" END 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@9" END
   LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@24" END
   SAY 0x1d6 @25
 
 COPY ~DofD/Items/demskull.itm~       ~override/demskull.itm~
   SAY NAME1 @26
   SAY NAME2 @27
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@28" END 
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@29" END 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@28" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@29" END
 
 COPY ~DofD/Items/demcrys.itm~       ~override/demcrys.itm~
   SAY NAME1 @30
   SAY NAME2 @31
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@32" END 
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@33" END 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@32" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@33" END
 
 COPY ~DofD/Items/demsoul.itm~        ~override/demsoul.itm~
   SAY NAME1 @34
   SAY NAME2 @35
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@36" END 
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@37" END 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@36" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@37" END
 
 COPY ~DofD/Items/demi4so.itm~       ~override/demi4so.itm~
   SAY NAME1 @38
@@ -152,8 +157,8 @@ COPY ~DofD/Items/demi4so.itm~       ~override/demi4so.itm~
 COPY ~DofD/Items/demsw1h.itm~        ~override/demsw1h.itm~
   SAY NAME1 @40
   SAY NAME2 @41
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@42" END 
-  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@43" END 
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_undesc_to_update = "@42" END
+  LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@43" END
   SAY 0x1fe @44
 
 

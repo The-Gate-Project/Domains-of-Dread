@@ -46,29 +46,33 @@ Follow the prompt
 ## Version History:
 ----------------
 
-Version 1 (04 June 2006)   
-- WeiDU-conversion by Serdrick    
-- Added Russian translation by www.aerie.ru   
+Version 1 (04 June 2006)
+- WeiDU-conversion by Serdrick
+- Added Russian translation by www.aerie.ru
 
 Version 2 (10 April 2009)
-- Added German translation by Rübezahl   
-- Added Readme.txt   
-- Added VERSION flag   
-- Added WeiDU v210   
-   
-Version 3 (13 November 2009)   
-- Added Italian translation by Stoneangel      
-- Changed to README command   
-- Updated to WeiDU v211   
-   
-Version 3.5 (Janvier 2023)   
+- Added German translation by Rübezahl
+- Added Readme.txt
+- Added VERSION flag
+- Added WeiDU v210
+
+Version 3 (13 November 2009)
+- Added Italian translation by Stoneangel
+- Changed to README command
+- Updated to WeiDU v211
+
+Version 3.5 (Janvier 2023)
 - Added French translation
-- Corrections for items         
-- Corrections for scrolls   
-- New componant : Add another, easier way to access the Domain of Dread        
+- Corrections for items
+- Corrections for scrolls
+- New componant : Add another, easier way to access the Domain of Dread
 - Prevent duplicate dialogs
-- Autotra        
+- Autotra
 - Prefixes
-- Gw fonction for EE item descriptions 
+- Gw fonction for EE item descriptions
 - Metadata / Label
-- Add InfinityAutoPackager     
+- Add InfinityAutoPackager
+
+Version 3.6 (February 2025)
+- Added Simplified Chinese (Translation by lzw104522773)
+- Polishing

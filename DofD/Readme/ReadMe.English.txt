@@ -10,7 +10,7 @@ Those who survive will get the reward.
 HISTORY
 
 Version 1 (04 June 2006)
-- WeiDU-conversion by Serdrick 
+- WeiDU-conversion by Serdrick
 - Added Russian translation by www.aerie.ru
 
 Version 2 (10 April 2009)
@@ -23,14 +23,18 @@ Version 3 (13 November 2009)
 - Added Italian translation by Stoneangel
 - Changed to README command
 - Updated to WeiDU v211
-   
-Version 3.5 (Janvier 2023)   
+
+Version 3.5 (Janvier 2023)
 - Added French translation
-- Correction for items         
-- New componant : Add another, easier way to access the Domain of Dread        
+- Correction for items
+- New componant : Add another, easier way to access the Domain of Dread
 - Prevent duplicate dialogs
-- Autotra        
+- Autotra
 - Prefixes
-- Gw fonction for items description 
+- Gw fonction for items description
 - Metadata / Label
-- Add InfinityAutoPackager     
+- Add InfinityAutoPackager
+
+Version 3.6 (February 2025)
+- Added Simplified Chinese (Translation by lzw104522773)
+- Polishing
