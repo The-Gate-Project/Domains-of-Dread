@@ -4,7 +4,7 @@
 [![Published](https://img.shields.io/github/release-date-pre/The-Gate-Project/Domains-of-Dread?display_date=published_at&label=published&color=014a69)](https://github.com/The-Gate-Project/Domains-of-Dread/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/The-Gate-Project/Domains-of-Dread/total?color=41788a)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
 
-[![Language](https://img.shields.io/badge/language-%20%7C%20french%20%7C%20german%20%7C%20italian%20%7C%20russian%20%7C%20-014a69)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
+[![Language](https://img.shields.io/badge/language-%20%7C%20french%20%7C%20german%20%7C%20italian%20%7C%20russian%20%7C%20schinese%20%7C%20-014a69)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
 [![Games](https://img.shields.io/badge/games-BG1%20%a0%20BGEE%20%a0%20BGT%20%a0%20EET-41788a)](https://github.com/The-Gate-Project/Domains-of-Dread/releases)
 
 <!--
