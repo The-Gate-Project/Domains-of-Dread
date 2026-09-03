@@ -40,8 +40,8 @@ Type :  Arme à une main
 Nécessite : 10 en Force
 
 Non utilisable par :
- Druide
- Mage
+Druide
+Mage
 Voleur~
 @10 = ~Le Faiseur de nuit +3
 
@@ -74,11 +74,11 @@ Nécessite :
 Poids : 4
 
 Non utilisable par :
- Druide
- Mage
+Druide
+Mage
 Voleur
 Elfes
-Les personnages d'alignement bon~
+Personnages d'alignement bon~
 @11 = ~Arc court~
 @12 = ~Cupidon~
 @13 = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent en moyenne 1,50 mètre. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
@@ -92,9 +92,9 @@ Type :  Arme à 2 mains
 Nécessite : 3 en Force
 
 Non utilisable par :
- Druide
- Prêtre
- Mage~
+Druide
+Prêtre
+Mage~
 @14 = ~Cupidon
 
 Cet arc enchanté appartenait à une divinité obscure surnommée Cupidon. L'arc augmente drastiquement l'attractivité de la personne qui l'utilise et à la particularité d'obliger ses victimes à s'éprendre de celui ou celle qui décoche ses flèches.
@@ -120,9 +120,9 @@ Nécessite :
 Poids : 2
 
 Non utilisable par :
- Druide
- Prêtre
- Mage~
+Druide
+Prêtre
+Mage~
 @15 = ~Clé du portail~
 @16 = ~Une clé sophistiquée que vous devez la placer dans la lampe.~
 @17 = ~Attaque~
@@ -169,8 +169,8 @@ Nécessite :
 Poids : 15
 
 Non utilisable par :
- Druide
- Mage
+Druide
+Mage
 Voleur~
 @25 = ~Modification du charisme~
 @26 = ~Casque~
@@ -203,8 +203,8 @@ Capacités de charge :
 Poids : 2
 
 Non utilisable par :
- Mage
- Barde
+Mage
+Barde
 Voleur~
 @30 = ~Épée bâtarde~
 @31 = ~Épée de Cristal~
@@ -221,9 +221,9 @@ Type :  Arme à une main
 Nécessite : 11 en Force
 
 Non utilisable par :
- Druide
- Prêtre
- Mage
+Druide
+Prêtre
+Mage
 Voleur~
 @33 = ~Lame de Cristal
 
@@ -252,9 +252,9 @@ Nécessite :
 Poids : 10
 
 Non utilisable par :
- Druide
- Prêtre
- Mage
+Druide
+Prêtre
+Mage
 Voleur~
 @34 = ~Épée courte ~
 @35 = ~Esprit voleur~
@@ -271,9 +271,9 @@ Type :  Arme à une main
 Nécessite : 5 en Force
 
 Non utilisable par :
- Druide
- Prêtre 
- Mage ~
+Druide
+Prêtre 
+Mage ~
 @37 = ~Esprit voleur
 
 Ces lames extrêmement rares ne sont utilisées que par les plus grands voleurs. Les esprits voleurs ont été créés sur le plan de l'ombre par d'habiles maîtres forgerons. Ce sont des armes redoutables capable de tuer instantanément leur victime malchanceuse. Une arme vorpal associée à des agresseurs souvent si habiles qu'ils peuvent attaquer sournoisement sans être aperçus fait que nombre d'entre elles meurent sans même savoir ce qui les a frappées. La lame vibre dans la main de celui ou celle qui la brandit, impatiente de voler des vies.
@@ -300,8 +300,8 @@ Nécessite :
 
 Poids : 3
 
-Non utilisable par :
- Non-voleur~
+Utilisable par :
+Voleur~
 @38 = ~Le tourment de Siegfried~
 @39 = ~Le tourment de Siegfried
 (Invocation) 
@@ -334,9 +334,9 @@ Type :  Arme à une main
 Nécessite : 6 en Force
 
 Non utilisable par :
- Druide
- Prêtre
- Mage~
+Druide
+Prêtre
+Mage~
 @43 = ~L'émeraude du destin
 
 La légende raconte que cette puissante épée longue était utilisée par une championne épéiste Jen, la rendant presque imbattable. Jen aurait tout de même fini par être vaincue par un grand maître prénommé Li.
@@ -363,10 +363,10 @@ Nécessite :
 Poids : 7
 
 Non utilisable par :
- Druide
- Prêtre
- Mage
- Personnage d'alignement Mauvais et Neutre~
+Druide
+Prêtre
+Mage
+Personnage d'alignement Mauvais et Neutre~
 @44 = ~Dissipation des effets~
 @45 = ~Installation des sorts~
 @46 = ~Regard pernicieux~
